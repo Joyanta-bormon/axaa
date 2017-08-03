@@ -1,0 +1,99 @@
+header{background: url(../images/banner.jpg);background-size: cover; position: relative;height: 100%;background-attachment: fixed;}
+.header-top{
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 30px;
+	margin-top:10px;
+}
+.pull-left img{}
+
+.pull-right button{}
+.header-buttom{padding-bottom: 60px;color: #fff;position: relative}
+.header-buttom h1{
+    padding: 50px 0;
+    text-shadow: 0 0 5px #2f2f2f;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.btn-custom{
+    padding: 10px 80px;
+    background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1a62aa+0,279ac8+100 */
+background: #1a62aa; /* Old browsers */
+background: -moz-linear-gradient(left, #1a62aa 0%, #279ac8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #1a62aa 0%,#279ac8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #1a62aa 0%,#279ac8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a62aa', endColorstr='#279ac8',GradientType=1 ); /* IE6-9 */;
+}
+
+.help-you{    background: #eaeaea;padding-bottom: 40px}
+.help-text{padding: 60px 0;}
+.help-text p{}
+.help-text img{}
+.help-text h2{}
+
+
+.trip{    padding-bottom: 50px;}
+.trip-text h2{
+        text-align: center;
+    padding: 50px 0;
+}
+.single-trip{}
+.single-help img{    background: #fff;
+    border-radius: 100%;
+    border: 8px solid #fff;
+    height: 70px;
+    width: 70px;}
+.single-trip h3{}
+.single-trip p{}
+
+.career{background: url(../images/screen2.jpg);background-size: cover;position: relative;}
+
+.footer-top{padding: 50px}
+.footer-top p{}
+
+footer{background: #aac4d3; padding: 20px 0}
+
+
+.pull-right {
+    float: right!important;
+    margin-top: 30px;
+    padding: 10px 50px;}
+.button{
+    text-align: center;
+    color: #fff;
+}
+
+.trip-content{}
+
+.overlay-career{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.24);
+    height: 100%;
+    width: 100%;
+    }
+.header-overlay{
+     position: absolute;
+    background: rgba(0, 0, 0, 0.24);
+    height: 100%;
+    width: 100%;
+}
+
+.overlay-icon{
+    position: absolute;
+    left:50%;
+    bottom: 0;
+    transform: translate(-50%, 52%);
+}
+
+.heade-top-logo{float:left;}
+
+@media (max-width: 450px){
+	.pull-left:{
+		text-align: center;
+		float:none;
+	}
+	.header-top > div {text-align:center;}
+	.header-top > .heade-top-logo{float:none !important;}
+	.header-top > div> button{display:none;}
+}
